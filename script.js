@@ -9,5 +9,10 @@ const overlay = document.querySelector(".overlay");
 
 openIcon.addEventListener("click", () => {
   navItem.classList.toggle("active");
-  // overlay.classList.toggle("hidden");
+  overlay.classList.toggle("hidden");
+});
+
+closeIcon.addEventListener("click", () => {
+  navItem.classList.remove("active");
+  overlay.classList.add("hidden");
 });
