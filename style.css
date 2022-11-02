@@ -62,10 +62,7 @@ p {
 .open,
 .close {
   width: 30px;
-}
-
-.open {
-  display: none;
+  display:none;
 }
 
 .close{
