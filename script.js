@@ -11,3 +11,7 @@ openIcon.addEventListener("click", () => {
   navItem.classList.toggle("active");
   // overlay.classList.toggle("hidden");
 });
+
+closeIcon.addEventListener('click',(e)=>{
+  navItem.classList.remove('active');
+})

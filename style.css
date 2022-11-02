@@ -68,9 +68,15 @@ p {
   display: none;
 }
 
+.close{
+  position:absolute;
+  top:20px;
+}
+
 .hidden {
   display: none;
 }
+
 .nav-list {
   display: flex;
   flex-direction: row;
@@ -266,10 +272,15 @@ p {
     flex-direction: column;
     color: hsl(240, 100%, 5%);
     transform: translateX(100%);
+    transition:all .5s ease-in-out;
   }
 
   .nav-items.active {
     transform: translateX(0);
+  }
+
+  .active .close{
+    display:block;
   }
 
   .nav-list {
