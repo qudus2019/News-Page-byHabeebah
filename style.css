@@ -26,7 +26,7 @@ html {
   transition: all 0.5s ease-in-out;
 }
 .body {
-  font-family: "Inter", sans-serif;
+  font-family: "Inter", sans-seri-f;
   color: hsl(233, 8%, 79%);
 }
 
@@ -243,6 +243,7 @@ p {
   .container {
     width: 350px;
     margin: 0 auto;
+    /* padding -top: 0; */
   }
 
   .grid-3,
@@ -293,15 +294,16 @@ p {
   .nav-items {
     position: fixed;
     top: 0%;
-    left: 50%;
-    width: 80vw;
+    /* left: 50%; */
+    right: 0;
+    width: 65vw;
     height: 100vh;
     /* right: -100%; */
     /* margin-top: 50px; */
     background-color: hsl(36, 100%, 99%);
 
     flex-direction: column;
-    color: hsl(240, 100%, 5%);
+    color: hsl(240, 85%, 3%);
     transform: translateX(100%);
     transition: all 0.5s ease;
     z-index: 999;
@@ -319,6 +321,7 @@ p {
     display: flex;
     flex-direction: column;
     padding: 10px 30px;
+    color: hsl(240, 85%, 3%) !important ;
     /* align-items: ; */
     margin-top: 150px;
     align-items: initial;
@@ -350,7 +353,7 @@ p {
   .close {
     display: block;
     /* right: 20px; */
-    left: 50%;
+    left: 75%;
     top: 45px;
     width: 30px;
     /* width: 25px; */
